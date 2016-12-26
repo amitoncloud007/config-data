@@ -1,0 +1,15 @@
+# Lab 3 YAML
+---
+spring:
+  profiles: east
+My-Demo: Rabbit
+
+---
+spring:
+  profiles: west
+My-Demo: Deer
+
+---
+spring:
+  profiles: north
+My-Demo: monkeey
